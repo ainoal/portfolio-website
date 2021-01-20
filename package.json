@@ -1,0 +1,16 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "homepage": "https://ainoal.github.io/portfolio_website",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -dist"
+  },
+  "author": "Aino Liukkonen",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
