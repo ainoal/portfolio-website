@@ -15,7 +15,7 @@
         @include easeout;
     }
 
-    // Rotate into an X with menu lines
+     // Rotate into an X with menu lines. Rotates lines 1 and 3 and hides line 2.
     &.close {
         transform: rotate(180deg);
 
