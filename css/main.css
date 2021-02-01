@@ -129,6 +129,8 @@
   background: #543E5C; }
 
 html {
+  position: relative;
+  min-height: 100%;
   font-size: 14px;
   margin-bottom: 40px; }
 
@@ -139,17 +141,19 @@ body {
   background: #FFF0F8;
   color: #000;
   height: 100%;
-  margin: 0;
+  margin: 0 0 100px;
   font-family: "Times New Roman", Times, serif; }
 
-.language {
-  position: absolute;
-  right: 35px;
-  top: 20px;
-  font-weight: bold; }
-  .language a {
-    padding-left: 6px; }
-
+/*.language {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-weight: bold;
+    
+    a {
+        padding-left: 6px;
+    }
+}*/
 .home-img img {
   position: absolute;
   top: 90px;
@@ -198,13 +202,13 @@ header {
   width: 100%; }
 
 footer {
-  position: fixed;
+  position: absolute;
+  left: 0;
   bottom: 0;
+  height: 60px;
   width: 100%;
-  padding: 1rem;
   background: #9692AF;
-  color: #000;
-  height: 60px; }
+  color: #000; }
   footer p {
     text-align: right;
     padding-right: 25px; }
@@ -245,26 +249,6 @@ main {
     background: white;
     padding: 3rem;
     border-bottom: #9692AF 5px solid; }
-
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 1rem; }
-  .boxes div {
-    font-size: 2rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.0rem;
-    margin-bottom: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.8s ease-out; }
-    .boxes div:hover {
-      padding: 1.0rem 1.5rem;
-      background: #9692AF;
-      color: #000; }
-      .boxes div:hover span {
-        color: #543E5C; }
 
 @media screen and (min-width: 1171px) {
   .carousel-container {
