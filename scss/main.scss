@@ -3,6 +3,8 @@
 @import "carousel";
 
 html {
+    position: relative;
+    min-height: 100%;
     font-size: 14px;
     margin-bottom: 40px;
 }
@@ -14,11 +16,11 @@ body{
     background: $primary-color;
     color: set-text-color($primary-color);
     height: 100%;
-    margin: 0;
+    margin: 0 0 100px;
     font-family: "Times New Roman", Times, serif;
 }
 
-.language {
+/*.language {
     position: absolute;
     right: 35px;
     top: 20px;
@@ -27,7 +29,7 @@ body{
     a {
         padding-left: 6px;
     }
-}
+}*/
 
 .home-img {
     img {
@@ -89,13 +91,13 @@ header {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
+    left: 0;
     bottom: 0;
+    height: 60px;
     width: 100%;
-    padding: 1rem;
     background: $secondary-color;
     color: set-text-color($secondary-color);
-    height: 60px;
 
     p {
         text-align: right;

@@ -12,7 +12,7 @@ As a huge language enthusiast, I am currently working on adding multiple languag
 
 ## Testing
 
-The website has been tested with Edge, Firefox and Chrome browsers. Due to some problems with loading pages in different languages on Chrome and Firefox, I have temporarily disabled language options until I fix the bug.
+The website has been tested with Firefox 84, Edge 88, Firefox 84 and Chrome 88 browsers. Due to some problems with loading pages in different languages on Chrome and Firefox, I have temporarily disabled language options until I fix the bug.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
